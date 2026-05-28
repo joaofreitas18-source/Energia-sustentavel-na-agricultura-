@@ -206,3 +206,39 @@ footer {
         font-size: 2.5rem;
     }
 }
+<style>
+.solar-card {
+    display: block;
+    background: linear-gradient(135deg, #f8fafc, #e0f2fe);
+    border: 2px solid #0ea5e9;
+    border-radius: 12px;
+    padding: 20px;
+    text-decoration: none;
+    color: #1e2937;
+    transition: all 0.3s ease;
+    max-width: 380px;
+}
+
+.solar-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(14, 165, 233, 0.3);
+    border-color: #0284c8;
+}
+
+.solar-card h3 {
+    margin: 0 0 10px 0;
+    color: #0e7490;
+}
+
+.solar-card p {
+    margin: 0 0 15px 0;
+    color: #475569;
+    line-height: 1.5;
+}
+
+.btn-detail {
+    color: #0284c8;
+    font-weight: bold;
+    font-size: 0.95rem;
+}
+</style>
